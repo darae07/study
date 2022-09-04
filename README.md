@@ -4,9 +4,9 @@
 
 ## 궁금한 것들
 
-<details markdown="1">
-<summary>9월 1주</summery>
-
+<details>
+<summary>9월 1주</summary>
+      
 - [ ] 시간복잡도 구할때 c와 n0으로 n구하는 부분
 - [ ] 유클리드 알고리즘 최대 공약수 증명
 - [ ] 기초 자료형, 파생 자료형, 사용자 정의 자료형의 차이는 무엇일까?
