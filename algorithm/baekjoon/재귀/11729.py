@@ -9,6 +9,7 @@ result = []
 
 
 def hanoi(fr, to, other, n):
+    global count
     if n == 0:
         return
     hanoi(fr, other, to, n-1)
