@@ -9,10 +9,5 @@ class Solution:
         for i in range(len(s)):
             odd = get_palindrome(s, i,i)
             even = get_palindrome(s, i, i+1)
-            if len(odd) > len(even):
-                if len(odd) > len(palindrome):
-                    palindrome = odd
-            else:
-                if len(even) > len(palindrome):
-                    palindrome = even
+            palindrome = max(palindrome, odd, even, key=len)
         return palindrome
