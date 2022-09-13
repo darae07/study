@@ -3,9 +3,9 @@ class Solution:
         n = min([len(s) for s in strs])
         prefix = ''
         for i in range(n):
-            ith_elements = set([s[i] for s in strs])
-            if len(ith_elements)>1:
-                break
+            c = strs[0][i]
+            if all([s[i] == c for s in strs]):
+                prefix += c
             else:
-                prefix += list(ith_elements)[0]
+                break
         return prefix
