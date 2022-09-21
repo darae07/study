@@ -1,8 +1,9 @@
 # 공부 레포지토리
 
 - [c언어의 포인터](cs/2022-09-02_pointer.markdown)
+- [CPU와 RAM](cs/CPU%EC%99%80RAM.md)
 
-## 궁금한 것들
+## 공부한 것들
 
 <details>
 <summary>9월 1주</summary>
@@ -56,6 +57,14 @@
 - 삽입 정렬은 최선 O(n)(정렬된 경우)
 - 퀵정렬: 최악일때 피봇이 잘못 설정되어있어서, 피봇을 잘 설정하려면 피봇 설정 기법 median of three가 있다.(특정 세개 값 중 중간값 취하기)
 - 병합정렬 장점 안정적 단점 배열을 너무 많이 씀
+</details>
+
+<details>
+<summary>9월 3주</summary>
+
+- [x] 자료구조 우선순위 큐
+- [x] [이코테 책 파트2](https://github.com/darae07/study/tree/master/algorithm/book_icote)
+- [x] cs- [CPU와 RAM](cs/CPU%EC%99%80RAM.md)
 </details>
 
 <details>
