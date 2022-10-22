@@ -16,4 +16,12 @@ while i < len(fear):
     if i >= len(fear):
         break
     group_count += 1
+
+group_count = 0
+member_count = 0
+for j in range(len(fear)):
+    member_count += 1
+    if fear[j] <= member_count:  # 지금까지 누적된 인원이 필요 인원보다 많거나 같으면
+        group_count += 1
+        member_count = 0
 print(group_count)
